@@ -6,3 +6,8 @@ body {
   overflow: hidden;
   position: fixed;
 }
+
+code {
+  display: block;
+  white-space: pre-wrap;
+}
