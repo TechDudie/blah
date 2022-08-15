@@ -8,12 +8,33 @@
 <body>
 <h1>TechnoDot - Coder</h1>
 <p>Hello World!</p>
-<code>
-class TechnoDot:
-  def __init__(self):
-    self.food = "Pizza"
-    self.school_subjects = ["Algebra 1", "SEEK"]
-    self.activity = "Write Code and Play Minecraft"
+<code># Copyright (c) 2022 TechnoDot
+class Project:<br>
+&nbsp;&nbsp;def __init__(self, title, topic, description):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.title = title<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.topic = topic<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.description = description<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.done = False<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return self<br>
+class Goal(Project):<br>
+&nbsp;&nbsp;def achieve(self):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.done = True;<br>
+<br>
+class TechnoDot:<br>
+&nbsp;&nbsp;def __init__(self):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.food = "Pizza"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.school_subjects = ["Algebra 1", "SEEK"]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.activity = "Write Code and Play Minecraft"<br>
+&nbsp;&nbsp;def project(self):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;projects = []<br>
+&nbsp;&nbsp;&nbsp;&nbsp;projects.append(Project("SoulChirp", "Python Web App Development", "Wins the award for most annoying and difficult school project (1.4K lines of code)."))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;project.append(Project("GrassBandits", "Python Web App Development", "Best School Project in 1.06K lines of code within 2 weeks(ish)."))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;self.projects = projects<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return projects<br>
+&nbsp;&nbsp;def IEPGoals(self):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;goals = []<br>
+&nbsp;&nbsp;&nbsp;&nbsp;goals.append(Goal("Hacking & Cybersecurity", "Hacking & Cybersecurity", "I've never done this before, it sounds intresting, and it has real-world applications."))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;goals.append(Goal("Real-World App Development", "Real-World App Development", "Develop and deploy an app for practical use."))<br>
 </code>
 </body>
 </html>
