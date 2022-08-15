@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+}
+.terminal {
+  color: #ffffff;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+  border: 1px solid #000000;
+  border-radius: 0px;
+  font-family: Ubuntu Mono;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
