@@ -1,6 +1,7 @@
 body {
-  background: rgb(2,0,36);
+  /* background: rgb(2,0,36); */
   /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%); */
+  background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,172,196,1) 10%, rgba(0,223,255,1) 15%, rgba(0,135,159,1) 30%, rgba(0,111,127,1) 50%, rgba(0,223,255,1) 100%);
   color: #ffffff;
   font-family: Ubuntu Mono;
