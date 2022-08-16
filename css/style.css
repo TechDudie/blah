@@ -13,3 +13,7 @@ code {
   padding: 20px;
   color: #00ff00;
 }
+
+inline {
+  display: inline-block;
+}
